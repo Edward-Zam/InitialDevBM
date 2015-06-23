@@ -1,0 +1,2 @@
+sudo update-rc.d hostapd remove
+sudo update-rc.d udhcpd remove
