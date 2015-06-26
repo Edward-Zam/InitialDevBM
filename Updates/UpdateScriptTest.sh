@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=V1
+VERSION=V2
 # This script will run after an update has been downloaded from the repo. It must check for changes in the update file or in version number. Update script will have version number on first line in order to compare easily.
 
 # Read old file to check version. Store in OLDVERSION.
