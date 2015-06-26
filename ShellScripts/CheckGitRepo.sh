@@ -7,6 +7,7 @@ git log HEAD..origin/master --oneline
 if [[ "${reslog}" != "" ]] ; then
   echo "Update Available. Downloading."
   git merge origin/master #completing the pull
+  echo "/bin/bash ~/InitialDevBM/Updates/UpdateScriptTest.sh" | at now + 1 minute
 else 
   echo "Current Version Already Installed."
 fi
