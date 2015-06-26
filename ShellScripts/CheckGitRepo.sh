@@ -2,7 +2,7 @@
 git fetch origin
 
 #See if there are any incoming changes
-git log HEAD..origin/master --oneline
+reslog=$(git log HEAD..origin/master --oneline)
 #Pull if changes
 if [[ "${reslog}" != "" ]] ; then
   echo "Update Available. Downloading."
